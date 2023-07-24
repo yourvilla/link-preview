@@ -10,8 +10,8 @@ const MetaDecorator = ({ title, description, imageUrl, imageAlt }) => (
     <meta property="og:title" content={title} />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={metaDecorator.hostname + imageUrl} />
-    <meta property="og:image:secure_url" content={metaDecorator.hostname + imageUrl} />
+    <meta property="og:image" content={imageUrl} />
+    {/* <meta property="og:image:secure_url" content={metaDecorator.hostname + imageUrl} /> */}
 
     <meta
       property="og:url"
